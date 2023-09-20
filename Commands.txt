@@ -1,0 +1,5 @@
+Start Zoo-keeper:
+-------------------------------
+bin/zookeeper-server-start.sh config/zookeeper.properties
+
+export KAFKA_HEAP_OPTS="-Xmx512M -Xms256M"
